@@ -13,7 +13,8 @@ import ProductForm from './Components/ProductForm';
 class App extends Component {
 	render() {
 		return (
-			<IonApp>
+      <div>
+
 				<Router>
           <nav className="navbar">
               <Link to="/create">
@@ -33,7 +34,8 @@ class App extends Component {
             <Route path="/create" component={ProductForm} />
 					</Switch>
 				</Router>
-			</IonApp>
+
+      </div>
 		)
 	}
 }

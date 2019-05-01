@@ -31,9 +31,9 @@ class ProductForm extends Component{
     render(){
 
         return(
-            <IonApp>
+            // <IonApp>
             <div className="main-container">
-            <IonCard className="main-card">
+            <div className="main-card">
                 <Input className="inputs" onChange={this.eventHandler} name="name" type="text" placeholder="Name of Product">
                 </Input>
                 <Input className="inputs" onChange ={this.eventHandler} name="quantity" type="number" min="0" max="100" placeholder="How Many Units">
@@ -42,9 +42,9 @@ class ProductForm extends Component{
                     Upload
                     </Button>
                 
-            </IonCard>
             </div>
-            </IonApp>
+            </div>
+            // </IonApp>
         )
     }
 }
