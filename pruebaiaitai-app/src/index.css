@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navbar{
+  display: flex;
+  /* margin: 10px; */
+  justify-content: space-around;
+  align-content: center;
+  height: 10vh;
+  width:100%;
+  background-color: goldenrod;
+  /* font-family: 'Press Start 2P', cursive; */
+
+}
+.navbar span{
+  font-size: 150%;
+  /* padding-top: 15px; */
+  color: black;
+
+}
+.product-card{
+  height: 20vh;
+  padding: 2vh;
+  width: 10vw;
+  margin: 4vh;
+  border: 1px dashed black;
+  color: black;
+  /* font-family: 'Press Start 2P', cursive; */
+
+}
+.product-container{
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
+}
+.main-container{
+height: 95vh;
+display: flex;
+text-align:center;
+justify-content: center;  
+}
+.main-card{
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  justify-content: center;
+ align-self: center;
+}
+.inputs{
+margin: 10px;
+}
+.button:hover{
+background-color: gray;
+}
+.index-page{
+  text-align: center;
+}
